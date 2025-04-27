@@ -1,0 +1,70 @@
+.profile {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #fff8dc;
+  padding: 30px 40px;
+  border-radius: 15px;
+  border: 3px solid #f1c40f;
+  box-shadow: 0 12px 25px rgba(48, 48, 48, 0.25);
+  color: #ffbf00;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.profile:hover {
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.4);
+  border-color: #f39c12;
+}
+
+.profile h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #0658aa;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+
+.profile p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #333;
+}
+
+.profile ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.profile ul li {
+  background-color: #cce0ff;
+  color: #003366;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 10px rgba(0, 51, 102, 0.2);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: default;
+}
+
+.profile ul li:hover {
+  background-color: #99bbff;
+  color: #001a4d;
+}
+
+.profile-image {
+  display: block;
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 51, 102, 0.3);
+}
